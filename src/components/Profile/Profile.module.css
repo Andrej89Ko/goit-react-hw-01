@@ -1,0 +1,56 @@
+.userCard {
+    margin: 0 auto;
+    border: 4px solid black;
+    border-radius: 15px;
+    max-width: 650px;
+    background-color: azure;
+}
+
+.avatar {
+padding: 30px 0;
+
+}
+
+.img {
+    width: 260px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: #2a2a2a;
+}
+.userName {
+
+    font-weight: 700;
+    color: black;
+    font-size: 50px;
+}
+.aboutText {
+    font-size: 40px;
+    color: gray;
+}
+.listUser {
+ display: flex;
+ background-color: lightgrey;
+ border-top: 4px solid grey;
+ border-radius: 15px;
+}
+
+.listItemUser {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(100% / 3);
+    padding: 15px 0;
+    border-right: 4px solid grey;
+
+    &:last-child {
+        border-right: 0;
+    }
+}
+
+.itemText {
+    font-size: 38px;
+}
+.itemCount {
+    font-size: 40px;
+    font-weight: 600;
+}
